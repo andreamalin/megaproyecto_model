@@ -1,596 +1,297 @@
 sequence_id,target
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-2,bathroom
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-6,cat
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-13,dog
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-15,eat food
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-18,father
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-25,fine
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-28,finish
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-33,go to
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-39,hello
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-43,help
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
-46,learn
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+1,bathroom
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+7,cat
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+10,dog
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+16,eat food
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+20,father
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+23,fine
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+29,finish
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+37,go to
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+41,hello
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+44,help
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
+47,learn
 53,like
 53,like
 53,like
@@ -615,59 +316,28 @@ sequence_id,target
 53,like
 53,like
 53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
-54,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
+56,me
 61,milk
 61,milk
 61,milk
@@ -699,46 +369,37 @@ sequence_id,target
 61,milk
 61,milk
 61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
-66,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
+63,more
 67,mother
 67,mother
 67,mother
@@ -765,116 +426,60 @@ sequence_id,target
 67,mother
 67,mother
 67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-71,no
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
-77,please
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+74,no
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
+75,please
 79,repeat
 79,repeat
 79,repeat
@@ -902,149 +507,60 @@ sequence_id,target
 79,repeat
 79,repeat
 79,repeat
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-87,see you later
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
-89,sign
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+83,see you later
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
+91,sign
 95,thank you
 95,thank you
 95,thank you
@@ -1074,112 +590,63 @@ sequence_id,target
 95,thank you
 95,thank you
 95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-97,want
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
-101,what
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+96,want
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
+102,what
 108,yes
 108,yes
 108,yes

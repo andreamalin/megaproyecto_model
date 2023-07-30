@@ -1,2 +1,3 @@
 *.parquet
 data/asl_videos
+data/asl_preprocessing
