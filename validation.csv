@@ -1,665 +1,357 @@
 sequence_id,target
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-1,bathroom
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-7,cat
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-10,dog
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-16,eat food
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-20,father
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-23,fine
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-29,finish
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-37,go to
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-41,hello
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-44,help
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-47,learn
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-53,like
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-56,me
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-61,milk
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-63,more
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-67,mother
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-74,no
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-75,please
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-79,repeat
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-83,see you later
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-91,sign
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-95,thank you
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-96,want
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-102,what
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
-108,yes
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+11,bathroom
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+27,cat
+32,dog
+32,dog
+32,dog
+32,dog
+45,eat food
+45,eat food
+45,eat food
+45,eat food
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+65,father
+75,fine
+75,fine
+75,fine
+75,fine
+75,fine
+75,fine
+75,fine
+75,fine
+75,fine
+75,fine
+75,fine
+75,fine
+88,finish
+88,finish
+88,finish
+88,finish
+88,finish
+88,finish
+88,finish
+88,finish
+88,finish
+88,finish
+88,finish
+88,finish
+88,finish
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+114,go to
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+132,hello
+141,help
+141,help
+141,help
+141,help
+141,help
+141,help
+141,help
+152,learn
+152,learn
+152,learn
+152,learn
+152,learn
+152,learn
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+162,like
+178,me
+178,me
+178,me
+178,me
+178,me
+178,me
+178,me
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+191,milk
+205,more
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+215,mother
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+237,no
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+245,please
+271,repeat
+271,repeat
+271,repeat
+279,see you later
+279,see you later
+279,see you later
+279,see you later
+279,see you later
+279,see you later
+279,see you later
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+299,sign
+315,thank you
+315,thank you
+315,thank you
+315,thank you
+315,thank you
+315,thank you
+315,thank you
+315,thank you
+322,want
+322,want
+338,what
+338,what
+338,what
+338,what
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
+351,yes
