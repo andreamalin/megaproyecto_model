@@ -1,161 +1,161 @@
-sequence_id,target
-1,o
-2,e
-3,y
-4,h
-5,z
-6,l
-7,m
-8,n
-9,i
-10,x
-11,t
-12,e
-13,p
-14,a
-15,v
-16,ñ
-17,g
-18,q
-19,g
-21,c
-22,u
-23,u
-24,r
-25,q
-26,g
-27,g
-28,ñ
-29,a
-30,p
-31,w
-32,e
-33,t
-34,b
-36,i
-37,n
-39,l
-42,h
-43,e
-44,y
-45,o
-46,b
-47,e
-48,w
-49,a
-52,g
-53,q
-54,r
-55,c
-56,u
-58,y
-59,k
-60,z
-62,g
-63,m
-64,n
-65,i
-66,x
-67,x
-68,n
-69,m
-70,g
-71,l
-72,z
-73,k
-74,h
-75,y
-76,o
-78,r
-79,q
-80,g
-81,ñ
-82,v
-83,a
-84,a
-85,p
-86,w
-87,e
-88,t
-89,b
-91,c
-92,r
-94,g
-95,v
-97,a
-99,t
-100,b
-101,x
-102,i
-103,n
-104,c
-105,m
-106,z
-107,k
-108,h
-109,b
-110,o
-111,o
-113,y
-114,h
-115,k
-116,z
-117,l
-119,c
-120,n
-121,i
-122,b
-123,t
-124,e
-125,w
-126,p
-127,a
-128,v
-129,ñ
-131,r
-132,c
-133,u
-134,x
-137,m
-138,b
-139,c
-140,l
-141,a
-142,k
-143,h
-145,u
-146,c
-147,r
-148,q
-149,g
-150,ñ
-151,v
-152,a
-153,p
-154,w
-155,e
-156,t
-158,h
-159,b
-160,h
-161,b
-163,h
-164,e
-165,w
-166,p
-167,a
-168,ñ
-169,v
-170,q
-171,c
-172,u
-173,o
-174,y
-175,h
-176,k
-177,z
-179,b
-180,l
-181,m
-182,i
-183,x
+sequence_id,target,file
+2,e,e (8).png
+3,y,y (4).png
+4,h,h (6).png
+6,l,l (4).png
+7,m,m (5).png
+8,n,n (3).png
+9,i,i (7).png
+12,e,e (4).png
+13,p,p (4).png
+14,a,a (6).png
+15,v,v (1).png
+16,ñ,ñ (6).png
+17,g,g (3).png
+18,q,q (5).png
+19,g,g (10).png
+20,r,r (3).png
+21,c,c (1).png
+22,u,u (7).png
+23,u,u (6).png
+24,r,r (2).png
+25,q,q (4).png
+26,g,g (11).png
+27,g,g (2).png
+28,ñ,ñ (7).png
+29,a,a (7).png
+31,w,w (1).png
+32,e,e (5).png
+33,t,t (7).png
+35,x,x (4).png
+36,i,i (6).png
+37,n,n (2).png
+38,m,m (4).png
+39,l,l (5).png
+40,z,z (3).png
+41,k,k (1).png
+42,h,h (7).png
+43,e,e (9).png
+44,y,y (5).png
+45,o,o (3).png
+46,b,b (6).png
+47,e,e (2).png
+48,w,w (6).png
+49,a,a (11).png
+50,p,p (2).png
+51,v,v (7).png
+52,g,g (5).png
+53,q,q (3).png
+54,r,r (5).png
+55,c,c (7).png
+56,u,u (1).png
+57,o,o (4).png
+58,y,y (2).png
+60,z,z (4).png
+62,g,g (9).png
+63,m,m (3).png
+64,n,n (5).png
+66,x,x (3).png
+67,x,x (2).png
+68,n,n (4).png
+71,l,l (3).png
+72,z,z (5).png
+73,k,k (7).png
+74,h,h (1).png
+75,y,y (3).png
+76,o,o (5).png
+77,c,c (6).png
+78,r,r (4).png
+79,q,q (2).png
+80,g,g (4).png
+81,ñ,ñ (1).png
+82,v,v (6).png
+83,a,a (1).png
+84,a,a (10).png
+85,p,p (3).png
+87,e,e (3).png
+88,t,t (1).png
+89,b,b (7).png
+90,u,u (3).png
+91,c,c (5).png
+92,r,r (7).png
+93,q,q (1).png
+94,g,g (7).png
+96,ñ,ñ (2).png
+97,a,a (2).png
+98,w,w (4).png
+99,t,t (2).png
+100,b,b (4).png
+101,x,x (1).png
+102,i,i (3).png
+103,n,n (7).png
+104,c,c (9).png
+105,m,m (1).png
+106,z,z (6).png
+107,k,k (4).png
+109,b,b (8).png
+110,o,o (6).png
+111,o,o (7).png
+112,b,b (9).png
+114,h,h (3).png
+115,k,k (5).png
+116,z,z (7).png
+117,l,l (1).png
+121,i,i (2).png
+122,b,b (5).png
+123,t,t (3).png
+124,e,e (1).png
+125,w,w (5).png
+126,p,p (1).png
+127,a,a (3).png
+128,v,v (4).png
+129,ñ,ñ (3).png
+130,g,g (6).png
+132,c,c (4).png
+133,u,u (2).png
+134,x,x (7).png
+135,i,i (5).png
+136,n,n (1).png
+137,m,m (7).png
+138,b,b (10).png
+139,c,c (10).png
+140,l,l (6).png
+142,k,k (2).png
+143,h,h (4).png
+144,y,y (6).png
+145,u,u (5).png
+146,c,c (3).png
+147,r,r (1).png
+149,g,g (1).png
+150,ñ,ñ (4).png
+151,v,v (3).png
+152,a,a (4).png
+153,p,p (6).png
+154,w,w (2).png
+155,e,e (6).png
+156,t,t (4).png
+157,h,h (8).png
+158,h,h (10).png
+159,b,b (2).png
+160,h,h (11).png
+161,b,b (3).png
+162,t,t (5).png
+163,h,h (9).png
+164,e,e (7).png
+165,w,w (3).png
+166,p,p (7).png
+167,a,a (5).png
+169,v,v (2).png
+170,q,q (6).png
+171,c,c (2).png
+173,o,o (1).png
+174,y,y (7).png
+175,h,h (5).png
+176,k,k (3).png
+177,z,z (1).png
+178,a,a (9).png
+179,b,b (11).png
+180,l,l (7).png
+181,m,m (6).png
+182,i,i (4).png
+183,x,x (6).png
