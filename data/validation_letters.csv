@@ -1,24 +1,25 @@
 sequence_id,target,file
-84,a,a (10).png
-135,i,i (5).png
-13,p,p (4).png
-33,t,t (7).png
-103,n,n (7).png
-71,l,l (3).png
-79,q,q (2).png
-158,h,h (10).png
-171,c,c (2).png
-47,e,e (2).png
-86,w,w (7).png
-89,b,b (7).png
-128,v,v (4).png
-35,x,x (4).png
-23,u,u (6).png
-173,o,o (1).png
-177,z,z (1).png
-38,m,m (4).png
-107,k,k (4).png
-168,ñ,ñ (5).png
-174,y,y (7).png
-19,g,g (10).png
-131,r,r (6).png
+775,a,a.png
+776,b,b.png
+777,c,c.png
+778,d,d.png
+779,e,e.png
+780,g,g.png
+781,h,h.png
+782,i,i.png
+783,k,k.png
+784,l,l.png
+785,m,m.png
+786,n,n.png
+787,o,o.png
+788,p,p.png
+789,q,q.png
+790,r,r.png
+791,t,t.png
+792,u,u.png
+793,v,v.png
+794,w,w.png
+795,x,x.png
+796,y,y.png
+797,z,z.png
+798,ñ,ñ.png
