@@ -1,3 +1,4 @@
 *.parquet
 data/*/*
 .DS_Store
+test_frame.png
