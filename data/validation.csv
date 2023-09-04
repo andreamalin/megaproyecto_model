@@ -1,548 +1,342 @@
-sequence_id,target
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-15,bathroom
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-18,cat
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-47,dog
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-53,eat food
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-68,father
-89,fine
-89,fine
-89,fine
-89,fine
-89,fine
-89,fine
-89,fine
-89,fine
-89,fine
-89,fine
-104,finish
-104,finish
-104,finish
-104,finish
-104,finish
-104,finish
-104,finish
-104,finish
-104,finish
-116,go to
-116,go to
-116,go to
-116,go to
-116,go to
-116,go to
-116,go to
-116,go to
-116,go to
-116,go to
-116,go to
-116,go to
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-126,hello
-140,help
-140,help
-140,help
-140,help
-140,help
-140,help
-140,help
-140,help
-140,help
-140,help
-140,help
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-160,learn
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-179,like
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-183,me
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-204,milk
-221,more
-221,more
-221,more
-221,more
-221,more
-221,more
-221,more
-221,more
-221,more
-221,more
-221,more
-221,more
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-232,mother
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-255,no
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-272,please
-275,repeat
-275,repeat
-275,repeat
-275,repeat
-275,repeat
-275,repeat
-275,repeat
-275,repeat
-275,repeat
-275,repeat
-275,repeat
-275,repeat
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-291,see you later
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-316,sign
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-322,thank you
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-345,want
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-359,what
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
-376,yes
+sequence_id,target,file
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+235,familia,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/familia (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+236,entender,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/entender (2).mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+237,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer.mp4
+238,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias (2).mp4
+238,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias (2).mp4
+238,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias (2).mp4
+238,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias (2).mp4
+238,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias (2).mp4
+238,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias (2).mp4
+238,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias (2).mp4
+238,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias (2).mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+239,medico,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/medico.mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+240,ayuda,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/ayuda (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+241,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor (2).mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+242,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si.mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+243,querer,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/querer (2).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+244,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (1).mp4
+245,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (2).mp4
+245,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (2).mp4
+245,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (2).mp4
+245,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (2).mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+247,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar.mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+248,no,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/no (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+249,adios,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/adios (2).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+250,hola,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/hola (1).mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+251,por favor,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/por favor.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+252,gracias,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/gracias.mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+253,necesitar,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/necesitar (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
+254,si,/Users/andreaamaya/Trabajo/megaproyecto_model/data/videos_val/si (2).mp4
