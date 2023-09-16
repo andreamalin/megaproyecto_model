@@ -4,12 +4,29 @@ import pandas as pd
 import numpy as np
 from utils import flat_X
 
+class Models():
+    def __init__(self) -> None:
+        self.max_seq_length = 30 # Frames per video
+        self.num_features = 84 # 21 rows x, 21 rows y left and right = 84
+    
+    def get_three_dimensions(self, df: pd.DataFrame):
+        num_samples = int(len(df)/self.max_seq_length)
+        return df.values.reshape(num_samples, self.max_seq_length, self.num_features)
+
+    def get_flat_X(self, df: pd.DataFrame):
+        return flat_X(self.max_seq_length, df)
+
+    def save_model(self, model_name, trained_model):
+        with open(f'{model_name}.pkl','wb') as f:
+            pickle.dump(trained_model, f)
+
 class PretrainedModels():
     def __init__(self) -> None:
         self.max_seq_length = 30 # Frames per video
         self.num_samples = 1 # One video processed
         self.num_features = 84 # 21 rows x, 21 rows y left and right = 84
 
+        self.unique_pred = []
         self.load_label_encoder()
         self.load_three_models()
     
@@ -48,8 +65,21 @@ class PretrainedModels():
             return pickle.load(f) 
     
     def get_predictions(self, data: pd.DataFrame):
-        return {
-            "SVM": self.predict_with_svm(data),
-            "CNN": self.predict_with_cnn(data),
-            "TREE": self.predict_with_tree(data),
-        }
+        self.unique_pred = []
+        results = []
+        chunks = [data[i:i + self.max_seq_length] for i in range(0, len(data), self.max_seq_length)]
+
+        for chunk in chunks:
+            results.append(
+                {
+                    "SVM": self.predict_with_svm(chunk),
+                    "CNN": self.predict_with_cnn(chunk),
+                    "TREE": self.predict_with_tree(chunk),
+                }
+            )
+            self.unique_pred.append(list(set(results[-1].values())))
+
+        return results
+    
+    def get_unique_pred(self):
+        return self.unique_pred

@@ -18,13 +18,19 @@ class MediapipeHands():
         num_hands=2,
     )
     hands = HandLandmarker.create_from_options(options)
+    two_hands_words = ["familia", "por favor", "ayuda", "amor", "casa", "escuela", "salud", "feliz"]
 
-    def __init__(self) -> None:
+    def __init__(self, past_data_path=None) -> None:
         self.frames = []
         self.sequence_id = 0
         self.validation_sequence_ids = []
         self.initial_dir = os.getcwd()
+        self.ids_without_required_hands = []
 
+        if (past_data_path != None):
+            if (os.path.exists(past_data_path)):
+                past_df = pd.read_csv(past_data_path)
+                self.sequence_id = past_df["sequence_id"].max()
 
     def extract_coordinates_from_dir(self, dir, is_val=False):
         os.chdir(dir)
@@ -54,7 +60,7 @@ class MediapipeHands():
         os.chdir(self.initial_dir)
 
     def extract_coordinates_from_path(self, path):
-        output_fps_path = f'{os.getcwd()}/cdn_input/adjusted_fps_video.mp4'
+        output_fps_path = f'{os.getcwd()}/adjusted_fps_video.mp4'
         input_path = path
         self.sequence_id += 1
 
@@ -98,6 +104,7 @@ class MediapipeHands():
 
     def extract_video(self, video, target, sequence_id, real_path):
         added_rows = 0
+        detected_two_hands = False
         # For webcam input:
         cap = cv2.VideoCapture(video)
         
@@ -107,7 +114,7 @@ class MediapipeHands():
                 break
             
 
-            name = f'{os.getcwd()}/cdn_input/test_frame.png'
+            name = f'{os.getcwd()}/test_frame.png'
             cv2.imwrite(name, frame)
             mp_image = mp.Image.create_from_file(name)
             hand_landmarker_result = self.hands.detect(mp_image)
@@ -151,20 +158,29 @@ class MediapipeHands():
             #     break
             if (added_rows == 30):
                 break
+            
+            if (len(hand_landmarker_result.handedness) == 2):
+                detected_two_hands = True
         
-        while (added_rows < 30):
-            x, y = [0, 0]
-            for i in range(21):
-                row_data[f'x_{hand_sides[0]}_hand_{i}'] =  x
-                row_data[f'y_{hand_sides[0]}_hand_{i}'] =  y
-                row_data[f'x_{hand_sides[1]}_hand_{i}'] =  x
-                row_data[f'y_{hand_sides[1]}_hand_{i}'] =  y
-            self.frames.append(row_data)
-            added_rows += 1
+
 
         if (added_rows == 0):
             print("!! No hand detected in ", real_path)
-
+        else:
+            while (added_rows < 30):
+                x, y = [0, 0]
+                for i in range(21):
+                    row_data[f'x_{hand_sides[0]}_hand_{i}'] =  x
+                    row_data[f'y_{hand_sides[0]}_hand_{i}'] =  y
+                    row_data[f'x_{hand_sides[1]}_hand_{i}'] =  x
+                    row_data[f'y_{hand_sides[1]}_hand_{i}'] =  y
+                self.frames.append(row_data)
+                added_rows += 1
+        
+        if (not detected_two_hands and target in self.two_hands_words):
+            print(">> No se detectaron las dos manos necesarias en ", real_path, " con id ", sequence_id)
+            self.ids_without_required_hands.append(sequence_id)
+            
         cap.release()
         cv2.destroyAllWindows()
     
@@ -184,4 +200,7 @@ class MediapipeHands():
         subprocess.call(c, shell=True)
 
     def get_padded_data(self):
-        return pd.DataFrame(self.frames)
+        df = pd.DataFrame(self.frames)
+        df['sequence_id'] = df['sequence_id'].astype(int)
+        df = df[~df.sequence_id.isin(self.ids_without_required_hands)]
+        return df

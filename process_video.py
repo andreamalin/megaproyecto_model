@@ -31,5 +31,5 @@ if __name__ == '__main__':
 
     print("----Resultados----")
     print(results)
-    results = list(set(results.values()))
+    results = pretainedModels.get_unique_pred()
     print(results)
