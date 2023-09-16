@@ -5,8 +5,8 @@ import numpy as np
 from utils import flat_X
 
 class Models():
-    def __init__(self) -> None:
-        self.max_seq_length = 30 # Frames per video
+    def __init__(self, max_seq_length=30) -> None:
+        self.max_seq_length = max_seq_length # Frames
         self.num_features = 84 # 21 rows x, 21 rows y left and right = 84
     
     def get_three_dimensions(self, df: pd.DataFrame):
@@ -83,3 +83,31 @@ class PretrainedModels():
     
     def get_unique_pred(self):
         return self.unique_pred
+
+
+class PretrainedModelLetters():
+    def __init__(self) -> None:
+        self.max_seq_length = 1 # Frame per photo
+        self.num_samples = 1 # One photo processed
+        self.num_features = 84 # 21 rows x, 21 rows y left and right = 84
+
+        self.unique_pred = []
+        self.load_label_encoder()
+        self.load_tree_model()
+    
+    def load_model(self, model_name):
+        # load
+        with open(f'{model_name}.pkl', 'rb') as f:
+            return pickle.load(f) 
+
+    def load_label_encoder(self):
+        # Load the label encoder
+        self.label_encoder = self.load_model('label_encoder_letters')
+
+    def load_tree_model(self):
+        self.tree_model = self.load_model("tree_letters")
+    
+    def get_predictions(self, data: pd.DataFrame):
+        predicted_tree = self.tree_model.predict(data)
+
+        return predicted_tree

@@ -5,6 +5,7 @@ import subprocess
 import cv2
 import glob, os
 import pandas as pd
+from PIL import Image, ImageOps
 
 class MediapipeHands():
     BaseOptions = mp.tasks.BaseOptions
@@ -19,6 +20,7 @@ class MediapipeHands():
     )
     hands = HandLandmarker.create_from_options(options)
     two_hands_words = ["familia", "por favor", "ayuda", "amor", "casa", "escuela", "salud", "feliz"]
+    two_hands_letters = ["x", "ñ", "q"]
 
     def __init__(self, past_data_path=None) -> None:
         self.frames = []
@@ -58,6 +60,46 @@ class MediapipeHands():
             self.extract_video(output_fps_path, name, self.sequence_id, input_path)
 
         os.chdir(self.initial_dir)
+
+    
+    def extract_images_coordinates_from_dir(self, dir, is_val=False):
+        os.chdir(dir)
+
+        for file in glob.glob("*"):
+            if (file.split(".")[-1] != "png"):
+                splitted_name = file.split(".")[:-1]
+                splitted_name.append(".png")
+                renamed_format = "".join(splitted_name)
+
+                im = Image.open(file)
+                im = ImageOps.exif_transpose(im)
+                im.save(renamed_format)
+
+                os.remove(file)
+
+        files_to_extract = glob.glob("*.png")
+        files_to_extract.sort()
+        print(f'Hay {len(files_to_extract)} imagenes a extraer coordenadas')
+        for file in files_to_extract:
+            self.sequence_id += 1
+
+            if (is_val):
+                self.validation_sequence_ids.append(self.sequence_id)
+
+            if ("(" not in file):
+                name = file.split(".")[0]
+            else:
+                name = file[0:file.index("(")].strip()
+
+            self.extract_image(file, name, self.sequence_id, f'{dir}/{file}')
+
+        os.chdir(self.initial_dir)
+    
+    def extract_image_coordinates_from_path(self, path):
+        self.sequence_id += 1
+        name = path.split(".")[0]
+        self.extract_image(path, name, self.sequence_id, path)
+
 
     def extract_coordinates_from_path(self, path):
         os.chdir(f'{os.getcwd()}/cdn_input')
@@ -103,6 +145,63 @@ class MediapipeHands():
         plt.legend()
         plt.grid(True)
         plt.show()
+    
+    def extract_image(self, name, target, sequence_id, real_path):
+        # Load an image from file
+
+        image = cv2.imdecode(np.fromfile(name, np.uint8), cv2.IMREAD_UNCHANGED)
+        mp_image = mp.Image.create_from_file(name)
+        hand_landmarker_result = self.hands.detect(mp_image)
+
+        # Check if the image was loaded successfully
+        if mp_image is not None:
+            if len(hand_landmarker_result.handedness) > 0:
+                if (target == "ñ"):
+                    target = "ñ"
+
+                row_data = {
+                    "sequence_id": sequence_id,
+                    "target": target,
+                    "file": name
+                }
+                
+                hand_sides = ["Left", "Right"]
+                for idx, landmarks in enumerate(hand_landmarker_result.hand_landmarks):
+                    detected_pixels = []
+                    hand_side = hand_sides[idx]
+                    # Iterate through detected hand landmarks
+                    for landmark_idx, landmark in enumerate(landmarks):
+                        x, y = landmark.x, landmark.y
+                        detected_pixels.append([x, y])
+
+                        # Draw circles on the frame
+                        cv2.circle(image, (int(x * image.shape[1]), int(y * image.shape[0])), 5, (0, 255, 0), -1)
+
+                    detected_pixels = self.normalize_coordinates(detected_pixels, target, image.shape[0])
+            
+                    for i in range(len(detected_pixels)):
+                        x, y = detected_pixels[i]
+                        row_data[f'x_{hand_side}_hand_{i}'] =  x
+                        row_data[f'y_{hand_side}_hand_{i}'] =  y
+                
+                if (len(hand_landmarker_result.handedness) == 1 and target in self.two_hands_letters):
+                    print(">> No se detectaron las dos manos necesarias en ", real_path, " con id ", sequence_id)
+                    return
+                    
+                if (len(hand_landmarker_result.handedness) == 1):
+                    for i in range(21):
+                        x, y = [0, 0]
+                        row_data[f'x_{hand_sides[1]}_hand_{i}'] =  x
+                        row_data[f'y_{hand_sides[1]}_hand_{i}'] =  y
+
+                # cv2.imshow('Original', image)
+                # cv2.waitKey(0)
+                self.frames.append(row_data)
+            
+        else:
+            print("Failed to load image.")
+
+        cv2.destroyAllWindows()
 
     def extract_video(self, video, target, sequence_id, real_path):
         added_rows = 0
