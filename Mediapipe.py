@@ -19,7 +19,9 @@ class MediapipeHands():
         num_hands=2,
     )
     hands = HandLandmarker.create_from_options(options)
-    two_hands_words = ["familia", "por favor", "ayuda", "amor", "casa", "escuela", "salud", "feliz"]
+    two_hands_words = ["familia", "por favor", "ayuda", "amor", "casa", "escuela", "salud", "feliz",
+    "aceite", "azucar", "bolsas de basura", "frutas", "huevos", "leche", "mantequilla",
+    "pañuelos", "papel higienico", "pasta", "queso", "shampoo", "sopa", "verduras"]
     two_hands_letters = ["x", "ñ", "q"]
 
     def __init__(self, past_data_path=None) -> None:
@@ -255,8 +257,7 @@ class MediapipeHands():
                 added_rows += 1
                 self.frames.append(row_data)
             # cv2.imshow('Hand Tracking', frame)
-            # if cv2.waitKey(1) & 0xFF == ord('q'):
-            #     break
+            # cv2.waitKey(0)
             if (added_rows == 30):
                 break
             
