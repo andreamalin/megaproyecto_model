@@ -3,8 +3,8 @@
 # Update the package manager
 sudo apt-get update && sudo apt-get upgrade -y
 
-# Install Python, pip, Git, and necessary libraries for OpenCV
-sudo apt-get install -y python3 python3-pip git libgl1-mesa-glx
+# Install Python, pip, Git, necessary libraries for OpenCV, and FFmpeg (which includes ffprobe)
+sudo apt-get install -y python3 python3-pip git libgl1-mesa-glx ffmpeg
 
 # Upgrade pip
 sudo pip3 install --upgrade pip

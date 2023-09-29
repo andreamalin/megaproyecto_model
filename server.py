@@ -9,7 +9,7 @@ class Resource(BaseModel):
   key: str
 
 CDN_BUCKET = "https://storage.googleapis.com/cdn-deaflens/"
-BACKEND_API = "https://deaflens-xa3v62ac2q-uc.a.run.app/"
+BACKEND_API = "https://deaflens-xa3v62ac2q-uc.a.run.app/v1"
 
 @app.post("/predict")
 async def predictModel(video: Resource):
@@ -17,11 +17,7 @@ async def predictModel(video: Resource):
     video_path = f'{CDN_BUCKET}{video.key}'
     id = video.key.split('.')[0]
 
-    print(video_path, id)
-
     result = process_video(video_path)
-
-    print(result)
 
     # Construct payload for PUT request
     data = {
@@ -30,7 +26,9 @@ async def predictModel(video: Resource):
       "apiPassword": '7AuY-YmfBv-624MKj2sQ',
       "apiUsername": 'W4B.n-sdsh',
     }
-    
+
+    print(data)
+
     # Send PUT request to BACKEND_API
     async with httpx.AsyncClient() as client:
       response = await client.put(f"{BACKEND_API}/model", json=data)
