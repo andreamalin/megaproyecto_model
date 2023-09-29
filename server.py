@@ -22,7 +22,7 @@ async def predictModel(video: Resource):
     # Construct payload for PUT request
     data = {
       "_id": id,
-      "options": result,
+      "options": result[0],
       "apiPassword": '7AuY-YmfBv-624MKj2sQ',
       "apiUsername": 'W4B.n-sdsh',
     }
