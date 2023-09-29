@@ -27,11 +27,9 @@ async def predictModel(video: Resource):
       "apiUsername": 'W4B.n-sdsh',
     }
 
-    print(data)
-
     # Send PUT request to BACKEND_API
     async with httpx.AsyncClient() as client:
-      response = await client.put(f"{BACKEND_API}/model", json=data)
+      response = await client.put(f"{BACKEND_API}/resources/model", json=data)
     
     # You can handle the response as required, for now, I'll just return it
     return response.json()
