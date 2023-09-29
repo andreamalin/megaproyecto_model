@@ -32,6 +32,7 @@ def process_video(url_link):
     print("----Resultados----")
     print(results)
     results = pretainedModels.get_unique_pred()
+    print(results)
     return results
 
 
@@ -48,3 +49,5 @@ def process_image(url_link):
 
     pretainedModel = PretrainedModelLetters()
     letters_results.append(pretainedModel.get_predictions(df))
+
+process_video("https://storage.googleapis.com/cdn-deaflens/65165d199e7f7ff950275177.mp4")
