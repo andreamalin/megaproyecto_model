@@ -15,9 +15,14 @@ BACKEND_API = "https://deaflens-xa3v62ac2q-uc.a.run.app/"
 async def predictModel(video: Resource):
   try:
     video_path = f'{CDN_BUCKET}{video.key}'
-    result = process_video(video_path)
     id = video.key.split('.')[0]
-    
+
+    print(video_path, id)
+
+    result = process_video(video_path)
+
+    print(result)
+
     # Construct payload for PUT request
     data = {
       "_id": id,
@@ -33,5 +38,6 @@ async def predictModel(video: Resource):
     # You can handle the response as required, for now, I'll just return it
     return response.json()
   except Exception as e:
+    print(e)
     # Return error details for easier debugging
     return {"error": str(e)}
