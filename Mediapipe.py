@@ -21,7 +21,10 @@ class MediapipeHands():
     hands = HandLandmarker.create_from_options(options)
     two_hands_words = ["familia", "por favor", "ayuda", "amor", "casa", "escuela", "salud", "feliz",
     "aceite", "azucar", "bolsas de basura", "frutas", "huevos", "leche", "mantequilla",
-    "pañuelos", "papel higienico", "pasta", "queso", "shampoo", "sopa", "verduras"]
+    "pañuelos", "papel higienico", "pasta", "queso", "shampoo", "sopa", "verduras",
+    "crema humectante", "dosificación", "solución salina", "efectos secundarios", "loción",
+    "desinfectante", "mascarilla", "gotas", "curitas", "pomada", "vitaminas",
+    "vendaje", "jarabe", "medicamento"]
     two_hands_letters = ["x", "ñ", "q"]
 
     def __init__(self, past_data_path=None) -> None:
