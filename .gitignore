@@ -4,3 +4,8 @@ data/*/*
 test_frame.png
 /cdn_input
 __pycache__
+*.pkl
+*.pb
+*.index
+*.data
+cnn_asl/variables/variables.data-00000-of-00001

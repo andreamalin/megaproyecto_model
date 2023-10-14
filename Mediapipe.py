@@ -24,7 +24,8 @@ class MediapipeHands():
     "pañuelos", "papel higienico", "pasta", "queso", "shampoo", "sopa", "verduras",
     "crema humectante", "dosificación", "solución salina", "efectos secundarios", "loción",
     "desinfectante", "mascarilla", "gotas", "curitas", "pomada", "vitaminas",
-    "vendaje", "jarabe", "medicamento"]
+    "vendaje", "jarabe", "medicamento",
+    "finish", "go to", "help", "learn", "more", "repeat", "sign", "want", "what"]
     two_hands_letters = ["x", "ñ", "q"]
 
     def __init__(self, past_data_path=None) -> None:

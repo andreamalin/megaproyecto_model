@@ -21,23 +21,37 @@ class Models():
             pickle.dump(trained_model, f)
 
 class PretrainedModels():
-    def __init__(self) -> None:
+    def __init__(self, is_asl=False) -> None:
         self.max_seq_length = 30 # Frames per video
         self.num_samples = 1 # One video processed
         self.num_features = 84 # 21 rows x, 21 rows y left and right = 84
 
         self.unique_pred = []
-        self.load_label_encoder()
-        self.load_three_models()
-    
+
+        if (is_asl):
+            self.load_label_encoder_asl()
+            self.load_three_models_asl()
+        else:
+            self.load_label_encoder()
+            self.load_three_models()
+
     def load_label_encoder(self):
         # Load the label encoder
         self.label_encoder = self.load_model('label_encoder')
+    
+    def load_label_encoder_asl(self):
+        # Load the label encoder
+        self.label_encoder = self.load_model('label_encoder_asl')
 
     def load_three_models(self):
         self.svm_model = self.load_model("svm")
         self.tree_model = self.load_model("tree")
         self.cnn_model = tf.keras.models.load_model("cnn")
+
+    def load_three_models_asl(self):
+        self.svm_model = self.load_model("svm_asl")
+        self.tree_model = self.load_model("tree_asl")
+        self.cnn_model = tf.keras.models.load_model("cnn_asl")
 
     def predict_with_cnn(self, data: pd.DataFrame):
         X_val_cnn = data.values.reshape(self.num_samples, self.max_seq_length, self.num_features)
