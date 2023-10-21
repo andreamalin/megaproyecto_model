@@ -5,22 +5,22 @@ import urllib.request
 from Mediapipe import MediapipeHands
 from Models import PretrainedModels, PretrainedModelLetters
 
-path = f'{os.getcwd()}/cdn_input/downloaded_video.mp4'
-image_path = f'{os.getcwd()}/cdn_input/downloaded_image.png'
 letters_results = []
 
-def download(url_link, is_image=False):
+def download(url_link, path='', is_image=False):
     if (is_image):
-        urllib.request.urlretrieve(url_link, image_path) 
+        urllib.request.urlretrieve(url_link, path) 
     else:
         urllib.request.urlretrieve(url_link, path) 
 
-def process_video(url_link):
-    download(url_link)
+def process_video(url_link, id):
+    path = f'{os.getcwd()}/cdn_input/{id}.mp4'
+    download(url_link, path)
 
     mediapipeHands = MediapipeHands()
-    mediapipeHands.extract_coordinates_from_path(path)
+    mediapipeHands.extract_coordinates_from_path(path, id)
 
+    print('>>> WUU')
     df = mediapipeHands.get_padded_data()
     del df["sequence_id"] 
     del df["target"] 
@@ -36,8 +36,9 @@ def process_video(url_link):
     return results
 
 
-def process_image(url_link):
-    download(url_link)
+def process_image(url_link, groupId, id):
+    image_path = f'{os.getcwd()}/cdn_input/{groupId}/{id}.png'
+    download(url_link, image_path)  
 
     mediapipeHands = MediapipeHands()
     mediapipeHands.extract_image_coordinates_from_path(image_path)

@@ -107,17 +107,21 @@ class MediapipeHands():
         self.extract_image(path, name, self.sequence_id, path)
 
 
-    def extract_coordinates_from_path(self, path):
-        os.chdir(f'{os.getcwd()}/cdn_input')
-        output_fps_path = f'{os.getcwd()}/adjusted_fps_video.mp4'
-        input_path = path
-        self.sequence_id += 1
+    def extract_coordinates_from_path(self, path, id):
+        try:
+            os.chdir(f'{os.getcwd()}/cdn_input')
+            output_fps_path = f'{os.getcwd()}/adjusted_fps_video-{id}.mp4'
+            input_path = path
+            self.sequence_id += 1
 
-        name = path.split(".")[0]
+            name = path.split(".")[0]
 
-        self.change_to_30_fps(video_input_path=input_path, video_output_path=output_fps_path)
-        self.extract_video(output_fps_path, name, self.sequence_id, input_path)
-        os.chdir(self.initial_dir)
+            self.change_to_30_fps(video_input_path=input_path, video_output_path=output_fps_path)
+            print('wuu')
+            self.extract_video(output_fps_path, name, self.sequence_id, input_path)
+        except Exception as e: print(e)
+        finally:
+            os.chdir(self.initial_dir)
 
     def normalize_coordinates(self, coordinates, target, image_height):
         matplot_coordinates = []

@@ -9,3 +9,4 @@ __pycache__
 *.index
 *.data
 cnn_asl/variables/variables.data-00000-of-00001
+cnn/variables/variables.data-00000-of-00001
