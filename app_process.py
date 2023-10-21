@@ -20,7 +20,6 @@ def process_video(url_link, id):
     mediapipeHands = MediapipeHands()
     mediapipeHands.extract_coordinates_from_path(path, id)
 
-    print('>>> WUU')
     df = mediapipeHands.get_padded_data()
     del df["sequence_id"] 
     del df["target"] 
@@ -35,6 +34,27 @@ def process_video(url_link, id):
     print(results)
     return results
 
+
+def process_video_asl(url_link):
+    path = f'{os.getcwd()}/cdn_input/{id}.mp4'
+    download(url_link, path)
+
+    mediapipeHands = MediapipeHands()
+    mediapipeHands.extract_coordinates_from_path(path)
+
+    df = mediapipeHands.get_padded_data()
+    del df["sequence_id"] 
+    del df["target"] 
+    del df["file"] 
+
+    pretainedModels = PretrainedModels(is_asl=True)
+    results = pretainedModels.get_predictions(df)
+
+    print("----Resultados----")
+    print(results)
+    results = pretainedModels.get_unique_pred()
+    print(results)
+    return results
 
 def process_image(url_link, groupId, id):
     image_path = f'{os.getcwd()}/cdn_input/{groupId}/{id}.png'
