@@ -109,8 +109,10 @@ class MediapipeHands():
 
     def extract_coordinates_from_path(self, path, id):
         try:
-            os.chdir(f'{os.getcwd()}/cdn_input')
-            output_fps_path = f'{os.getcwd()}/adjusted_fps_video-{id}.mp4'
+            output_fps_path = f'{self.initial_dir}/cdn_input/adjusted_fps_video-{id}.mp4'
+            output_mediapipe_detection = f'{self.initial_dir}/cdn_input/mediapipe-video-{id}.mp4'
+            output_mediapipe_detection_real_duration = f'{self.initial_dir}/cdn_input/mediapipe-video-final-{id}.mp4'
+
             input_path = path
             self.sequence_id += 1
 
@@ -118,7 +120,13 @@ class MediapipeHands():
 
             self.change_to_30_fps(video_input_path=input_path, video_output_path=output_fps_path)
             print('wuu')
-            self.extract_video(output_fps_path, name, self.sequence_id, input_path)
+            self.extract_video(output_fps_path, name, self.sequence_id, input_path, output_mediapipe_detection)
+
+            self.slow_video(
+                video_input_path=output_mediapipe_detection, 
+                video_output_path=output_mediapipe_detection_real_duration, 
+                duration=self.get_length(input_path)/0.5)
+            os.remove(output_mediapipe_detection)
         except Exception as e: print(e)
         finally:
             os.chdir(self.initial_dir)
@@ -213,11 +221,21 @@ class MediapipeHands():
 
         cv2.destroyAllWindows()
 
-    def extract_video(self, video, target, sequence_id, real_path):
+    def extract_video(self, video, target, sequence_id, real_path, output_mediapipe_detection=None):
         added_rows = 0
         detected_two_hands = False
         # For webcam input:
         cap = cv2.VideoCapture(video)
+        
+
+        out = None
+        if (output_mediapipe_detection != None):
+            frame_width = int(cap.get(3))
+            frame_height = int(cap.get(4))
+
+            fourcc = cv2.VideoWriter_fourcc(*'H264')
+            out = cv2.VideoWriter(output_mediapipe_detection, fourcc, 30, (frame_width, frame_height))
+            
         
         while cap.isOpened():
             ret, frame = cap.read()
@@ -246,7 +264,7 @@ class MediapipeHands():
                         x, y = landmark.x, landmark.y
                         detected_pixels.append([x  * frame.shape[1], y * frame.shape[0]])
                         # Draw circles on the frame
-                        cv2.circle(frame, (int(x * frame.shape[1]), int(y * frame.shape[0])), 5, (0, 255, 0), -1)
+                        cv2.circle(frame, (int(x * frame.shape[1]), int(y * frame.shape[0])), 15, (255, 0, 0), -1)
 
                         
                     detected_pixels = self.normalize_coordinates(detected_pixels, target, frame.shape[0])
@@ -266,6 +284,9 @@ class MediapipeHands():
                 self.frames.append(row_data)
             # cv2.imshow('Hand Tracking', frame)
             # cv2.waitKey(0)
+            if (out != None):
+                out.write(frame)
+
             if (added_rows == 30):
                 break
             
@@ -291,6 +312,8 @@ class MediapipeHands():
             print(">> No se detectaron las dos manos necesarias en ", real_path, " con id ", sequence_id)
             self.ids_without_required_hands.append(sequence_id)
             
+        if (out != None):
+            out.release()
         cap.release()
         cv2.destroyAllWindows()
     
@@ -306,6 +329,10 @@ class MediapipeHands():
     def change_to_30_fps(self, video_input_path, video_output_path):
         duration = 1/self.get_length(video_input_path)
 
+        c = f'ffmpeg -loglevel 0 -y -itsscale {duration} -i "' + video_input_path + f'" -filter:v fps=fps=30 "' + video_output_path + '"'
+        subprocess.call(c, shell=True)
+
+    def slow_video(self, video_input_path, video_output_path, duration):
         c = f'ffmpeg -loglevel 0 -y -itsscale {duration} -i "' + video_input_path + f'" -filter:v fps=fps=30 "' + video_output_path + '"'
         subprocess.call(c, shell=True)
 
