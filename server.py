@@ -30,8 +30,17 @@ async def predictModel(resource: Resource):
       storage_client = storage.Client()
       bucket = storage_client.bucket(CDN_BUCKET_NAME)
       blobs = bucket.list_blobs(prefix=f'{resource.langId}/{resource.key}/')
-      for blob in blobs:
-        print(blob.name)
+      image_names = [blob.name for blob in blobs]
+
+      result = []
+      for index, image_name in enumerate(image_names):
+        image_id = f'{id}-{index}'
+        result.append(
+          process_image(
+            f'{CDN_BUCKET}{image_name}',
+            image_id,
+          )[0]
+        )
 
     # # Construct payload for PUT request
     # data = {
