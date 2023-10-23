@@ -11,7 +11,8 @@ class Resource(BaseModel):
   langId: str
   isVideo: bool
 
-CDN_BUCKET = "https://storage.googleapis.com/cdn-deaflens/"
+CDN_BUCKET_NAME = "cdn-deaflens"
+CDN_BUCKET = f"https://storage.googleapis.com/{CDN_BUCKET_NAME}/"
 BACKEND_API = "https://deaflens-xa3v62ac2q-uc.a.run.app/v1"
 
 @app.post("/predict")
@@ -27,7 +28,7 @@ async def predictModel(resource: Resource):
         result = process_video_asl(video_path, id)
     else:
       storage_client = storage.Client()
-      bucket = storage_client.bucket(CDN_BUCKET)
+      bucket = storage_client.bucket(CDN_BUCKET_NAME)
       blobs = bucket.list_blobs(prefix=f'{resource.langId}/{resource.key}/')
       print(blobs)
 

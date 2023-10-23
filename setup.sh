@@ -11,4 +11,4 @@ sudo pip3 install --upgrade pip
 
 # Install the required Python libraries
 pip3 install scikit-learn==1.0.2
-pip3 install pandas numpy matplotlib mediapipe tensorflow keras fastapi uvicorn httpx requests opencv-python
+pip3 install pandas numpy matplotlib mediapipe tensorflow keras fastapi uvicorn httpx requests opencv-python google-cloud-storage
