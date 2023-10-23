@@ -30,7 +30,8 @@ async def predictModel(resource: Resource):
       storage_client = storage.Client()
       bucket = storage_client.bucket(CDN_BUCKET_NAME)
       blobs = bucket.list_blobs(prefix=f'{resource.langId}/{resource.key}/')
-      print(blobs)
+      for blob in blobs:
+        print(blob.name)
 
     # # Construct payload for PUT request
     # data = {
