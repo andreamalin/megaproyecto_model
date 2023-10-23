@@ -28,10 +28,7 @@ def process_video(url_link, id):
     pretainedModels = PretrainedModels()
     results = pretainedModels.get_predictions(df)
 
-    print("----Resultados----")
-    print(results)
     results = pretainedModels.get_unique_pred()
-    print(results)
     return results
 
 
@@ -50,14 +47,11 @@ def process_video_asl(url_link):
     pretainedModels = PretrainedModels(is_asl=True)
     results = pretainedModels.get_predictions(df)
 
-    print("----Resultados----")
-    print(results)
     results = pretainedModels.get_unique_pred()
-    print(results)
     return results
 
 def process_image(url_link, groupId, id):
-    image_path = f'{os.getcwd()}/cdn_input/{groupId}/{id}.png'
+    image_path = f'{os.getcwd()}/cdn_input/{groupId}-{id}.png'
     download(url_link, image_path)  
 
     mediapipeHands = MediapipeHands()

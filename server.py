@@ -1,6 +1,7 @@
 from app_process import *
 from fastapi import FastAPI
 from pydantic import BaseModel
+from google.cloud import storage
 import httpx
 
 app = FastAPI()
@@ -19,8 +20,16 @@ async def predictModel(resource: Resource):
     video_path = f'{CDN_BUCKET}{resource.langId}/{resource.key}'
     id = resource.key.split('.')[0]
 
-    result = process_video(video_path, id)
-    print(result)
+    if (resource.isVideo):
+      if (resource.langId == '651b5d410ae23c0573d7953e'):
+        result = process_video(video_path, id)
+      else:
+        result = process_video_asl(video_path, id)
+    else:
+      storage_client = storage.Client()
+      bucket = storage_client.bucket(CDN_BUCKET)
+      blobs = bucket.list_blobs(prefix=f'{resource.langId}/{resource.key}/')
+      print(blobs)
 
     # # Construct payload for PUT request
     # data = {
