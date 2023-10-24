@@ -5,8 +5,6 @@ import urllib.request
 from Mediapipe import MediapipeHands
 from Models import PretrainedModels, PretrainedModelLetters
 
-letters_results = []
-
 def download(url_link, path='', is_image=False):
     if (is_image):
         urllib.request.urlretrieve(url_link, path) 
@@ -63,4 +61,4 @@ def process_image(url_link, groupId, id):
     del df["file"] 
 
     pretainedModel = PretrainedModelLetters()
-    letters_results.append(pretainedModel.get_predictions(df))
+    return pretainedModel.get_predictions(df)
