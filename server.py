@@ -41,6 +41,7 @@ async def predictModel(resource: Resource):
             image_id,
           )[0]
         )
+      print(result)
 
     # # Construct payload for PUT request
     # data = {
