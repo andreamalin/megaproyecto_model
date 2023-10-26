@@ -34,6 +34,7 @@ async def predictModel(resource: Resource):
 
       result = []
       for index, image_name in enumerate(image_names):
+        print(f'{CDN_BUCKET}{image_name}', id, index + 1)
         result.append(
           process_image(
             f'{CDN_BUCKET}{image_name}',
