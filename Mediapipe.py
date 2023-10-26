@@ -215,7 +215,6 @@ class MediapipeHands():
                 # cv2.imshow('Original', image)
                 # cv2.waitKey(0)
                 self.frames.append(row_data)
-            
         else:
             print("Failed to load image.")
 
@@ -338,6 +337,7 @@ class MediapipeHands():
 
     def get_padded_data(self):
         df = pd.DataFrame(self.frames)
-        df['sequence_id'] = df['sequence_id'].astype(int)
-        df = df[~df.sequence_id.isin(self.ids_without_required_hands)]
+        if (len(self.frames) > 0):
+            df['sequence_id'] = df['sequence_id'].astype(int)
+            df = df[~df.sequence_id.isin(self.ids_without_required_hands)]
         return df

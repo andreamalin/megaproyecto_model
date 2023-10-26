@@ -56,6 +56,9 @@ def process_image(url_link, groupId, id):
     mediapipeHands.extract_image_coordinates_from_path(image_path)
 
     df = mediapipeHands.get_padded_data()
+    if (df.empty):
+        return [" "]
+
     del df["sequence_id"] 
     del df["target"] 
     del df["file"] 
