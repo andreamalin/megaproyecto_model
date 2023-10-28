@@ -16,9 +16,7 @@ def process_video(url_link, id):
     print(path, url_link)
     download(url_link, path)
 
-    print('>>>>>>1')
     mediapipeHands = MediapipeHands()
-    print('>>>>>>2')
     mediapipeHands.extract_coordinates_from_path(path, id)
     print('>>>>>>3')
 
