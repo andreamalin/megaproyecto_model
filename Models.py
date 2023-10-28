@@ -33,9 +33,7 @@ class PretrainedModels():
             self.load_three_models_asl()
         else:
             self.load_label_encoder()
-            print('AHHHHHHH2')
             self.load_three_models()
-            print('AHHHHHHH3')
 
     def load_label_encoder(self):
         # Load the label encoder
@@ -48,9 +46,7 @@ class PretrainedModels():
     def load_three_models(self):
         self.svm_model = self.load_model("svm")
         self.tree_model = self.load_model("tree")
-        print('WUUUUU3')
         # self.cnn_model = tf.keras.models.load_model("cnn")
-        print('WUUUUU4')
 
     def load_three_models_asl(self):
         self.svm_model = self.load_model("svm_asl")
@@ -92,7 +88,7 @@ class PretrainedModels():
             results.append(
                 {
                     "SVM": self.predict_with_svm(chunk),
-                    "CNN": self.predict_with_cnn(chunk),
+                    # "CNN": self.predict_with_cnn(chunk),
                     "TREE": self.predict_with_tree(chunk),
                 }
             )

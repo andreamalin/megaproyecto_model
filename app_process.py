@@ -24,7 +24,6 @@ def process_video(url_link, id):
     del df["target"] 
     del df["file"] 
 
-    print('>>>>>> 4')
     pretainedModels = PretrainedModels()
     print('>>>>>> 5')
     results = pretainedModels.get_predictions(df)
