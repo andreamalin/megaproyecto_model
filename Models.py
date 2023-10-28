@@ -55,8 +55,7 @@ class PretrainedModels():
 
     def predict_with_cnn(self, data: pd.DataFrame):
         X_val_cnn = data.values.reshape(self.num_samples, self.max_seq_length, self.num_features)
-        # predicted_cnn = self.cnn_model.predict(X_val_cnn)
-        predicted_cnn = 'pescado'
+        predicted_cnn = self.cnn_model.predict(X_val_cnn)
         most_likely_predictions = np.argmax(predicted_cnn, axis=1)
         predicted_cnn = self.label_encoder.inverse_transform(most_likely_predictions)[0]
 
@@ -88,7 +87,7 @@ class PretrainedModels():
             results.append(
                 {
                     "SVM": self.predict_with_svm(chunk),
-                    # "CNN": self.predict_with_cnn(chunk),
+                    "CNN": self.predict_with_cnn(chunk),
                     "TREE": self.predict_with_tree(chunk),
                 }
             )
