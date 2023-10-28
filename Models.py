@@ -46,12 +46,10 @@ class PretrainedModels():
         self.label_encoder = self.load_model('label_encoder_asl')
 
     def load_three_models(self):
-        print('WUUUUU')
         self.svm_model = self.load_model("svm")
-        print('WUUUUU2')
         self.tree_model = self.load_model("tree")
         print('WUUUUU3')
-        self.cnn_model = tf.keras.models.load_model("cnn")
+        # self.cnn_model = tf.keras.models.load_model("cnn")
         print('WUUUUU4')
 
     def load_three_models_asl(self):
@@ -61,7 +59,8 @@ class PretrainedModels():
 
     def predict_with_cnn(self, data: pd.DataFrame):
         X_val_cnn = data.values.reshape(self.num_samples, self.max_seq_length, self.num_features)
-        predicted_cnn = self.cnn_model.predict(X_val_cnn)
+        # predicted_cnn = self.cnn_model.predict(X_val_cnn)
+        predicted_cnn = 'pescado'
         most_likely_predictions = np.argmax(predicted_cnn, axis=1)
         predicted_cnn = self.label_encoder.inverse_transform(most_likely_predictions)[0]
 
