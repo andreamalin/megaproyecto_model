@@ -13,16 +13,21 @@ def download(url_link, path='', is_image=False):
 
 def process_video(url_link, id):
     path = f'{os.getcwd()}/cdn_input/{id}.mp4'
+    print(url_link, path)
     download(url_link, path)
 
+    print('wuuuuuu')
     mediapipeHands = MediapipeHands()
+    print('wuuuuuu')
     mediapipeHands.extract_coordinates_from_path(path, id)
+    print('wuuuuuu')
 
     df = mediapipeHands.get_padded_data()
     del df["sequence_id"] 
     del df["target"] 
     del df["file"] 
 
+    print('wuuuuuu')
     pretainedModels = PretrainedModels()
     results = pretainedModels.get_predictions(df)
 
