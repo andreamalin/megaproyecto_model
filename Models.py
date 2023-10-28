@@ -32,7 +32,6 @@ class PretrainedModels():
             self.load_label_encoder_asl()
             self.load_three_models_asl()
         else:
-            print('AHHHHHHH')
             self.load_label_encoder()
             print('AHHHHHHH2')
             self.load_three_models()
@@ -47,9 +46,13 @@ class PretrainedModels():
         self.label_encoder = self.load_model('label_encoder_asl')
 
     def load_three_models(self):
+        print('WUUUUU')
         self.svm_model = self.load_model("svm")
+        print('WUUUUU2')
         self.tree_model = self.load_model("tree")
+        print('WUUUUU3')
         self.cnn_model = tf.keras.models.load_model("cnn")
+        print('WUUUUU4')
 
     def load_three_models_asl(self):
         self.svm_model = self.load_model("svm_asl")
