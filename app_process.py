@@ -13,20 +13,28 @@ def download(url_link, path='', is_image=False):
 
 def process_video(url_link, id):
     path = f'{os.getcwd()}/cdn_input/{id}.mp4'
+    print(path, url_link)
     download(url_link, path)
 
+    print('>>>>>>1')
     mediapipeHands = MediapipeHands()
+    print('>>>>>>2')
     mediapipeHands.extract_coordinates_from_path(path, id)
+    print('>>>>>>3')
 
     df = mediapipeHands.get_padded_data()
+    print('>>>>>>4')
     del df["sequence_id"] 
     del df["target"] 
     del df["file"] 
 
     pretainedModels = PretrainedModels()
+    print('>>>>>>5')
     results = pretainedModels.get_predictions(df)
+    print('>>>>>>6')
 
     results = pretainedModels.get_unique_pred()
+    print('>>>>>>7')
     return results
 
 
