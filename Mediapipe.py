@@ -316,9 +316,12 @@ class MediapipeHands():
             print(">> No se detectaron las dos manos necesarias en ", real_path, " con id ", sequence_id)
             self.ids_without_required_hands.append(sequence_id)
             
+        print('>>>>>>5')
         if (out != None):
             out.release()
+        print('>>>>>>6')
         cap.release()
+        print('>>>>>>7')
         cv2.destroyAllWindows()
 
 
