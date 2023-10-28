@@ -18,14 +18,13 @@ def process_video(url_link, id):
 
     mediapipeHands = MediapipeHands()
     mediapipeHands.extract_coordinates_from_path(path, id)
-    print('>>>>>> 3')
 
     df = mediapipeHands.get_padded_data()
-    print('>>>>>> 4')
     del df["sequence_id"] 
     del df["target"] 
     del df["file"] 
 
+    print('>>>>>> 4')
     pretainedModels = PretrainedModels()
     print('>>>>>> 5')
     results = pretainedModels.get_predictions(df)

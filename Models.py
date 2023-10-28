@@ -32,8 +32,11 @@ class PretrainedModels():
             self.load_label_encoder_asl()
             self.load_three_models_asl()
         else:
+            print('AHHHHHHH')
             self.load_label_encoder()
+            print('AHHHHHHH2')
             self.load_three_models()
+            print('AHHHHHHH3')
 
     def load_label_encoder(self):
         # Load the label encoder

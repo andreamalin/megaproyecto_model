@@ -119,9 +119,7 @@ class MediapipeHands():
             name = path.split(".")[0]
 
             self.change_to_30_fps(video_input_path=input_path, video_output_path=output_fps_path)
-            print('wuu1')
             self.extract_video(output_fps_path, name, self.sequence_id, input_path, output_mediapipe_detection)
-            print('wuu2')
 
             self.slow_video(
                 video_input_path=output_mediapipe_detection, 
@@ -227,8 +225,6 @@ class MediapipeHands():
         # For webcam input:
         cap = cv2.VideoCapture(video)
         
-        print('>>>>>>1')
-
         out = None
         if (output_mediapipe_detection != None):
             frame_width = int(cap.get(3))
@@ -238,7 +234,6 @@ class MediapipeHands():
             out = cv2.VideoWriter(output_mediapipe_detection, fourcc, 30, (frame_width, frame_height))
             
         
-        print('>>>>>>2')
         while cap.isOpened():
             ret, frame = cap.read()
             if not ret:
@@ -295,8 +290,6 @@ class MediapipeHands():
             if (len(hand_landmarker_result.handedness) == 2):
                 detected_two_hands = True
         
-        print('>>>>>>3')
-
 
         if (added_rows == 0):
             print("!! No hand detected in ", real_path)
@@ -310,18 +303,14 @@ class MediapipeHands():
                     row_data[f'y_{hand_sides[1]}_hand_{i}'] =  y
                 self.frames.append(row_data)
                 added_rows += 1
-        print('>>>>>>4')
         
         if (not detected_two_hands and target in self.two_hands_words):
             print(">> No se detectaron las dos manos necesarias en ", real_path, " con id ", sequence_id)
             self.ids_without_required_hands.append(sequence_id)
             
-        print('>>>>>>5')
         if (out != None):
             out.release()
-        print('>>>>>>6')
         cap.release()
-        print('>>>>>>7')
         cv2.destroyAllWindows()
 
 
