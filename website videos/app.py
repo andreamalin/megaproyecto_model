@@ -8,7 +8,7 @@ from Models import PretrainedModels, PretrainedModelLetters
 
 import time
 
-def process_video_asl(id, path):
+def process_video(id, path, is_asl):
     mediapipeHands = MediapipeHands()
     mediapipeHands.extract_coordinates_from_path(path, id)
 
@@ -17,21 +17,7 @@ def process_video_asl(id, path):
     del df["target"] 
     del df["file"] 
 
-    pretainedModels = PretrainedModels(is_asl=True)
-    results = pretainedModels.get_predictions(df)
-
-    return results[0]
-
-def process_video(id, path):
-    mediapipeHands = MediapipeHands()
-    mediapipeHands.extract_coordinates_from_path(path, id)
-
-    df = mediapipeHands.get_padded_data()
-    del df["sequence_id"] 
-    del df["target"] 
-    del df["file"] 
-
-    pretainedModels = PretrainedModels()
+    pretainedModels = PretrainedModels(is_asl=is_asl)
     results = pretainedModels.get_predictions(df)
 
     return results[0]
@@ -54,11 +40,7 @@ def index():
             filename = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
             file.save(filename)
             
-            # Call the function to edit the video
-            if (selected_option == "lensegua"):
-                result = process_video(1, filename)
-            else:
-                result = process_video_asl(1, filename)
+            result = process_video(1, filename, selected_option == "asl")
 
             return render_template('index.html', original_filename=file.filename, edited_filename=file.filename, edited_words=result)
 
