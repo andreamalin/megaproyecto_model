@@ -10,3 +10,5 @@ __pycache__
 *.data
 cnn_asl/variables/variables.data-00000-of-00001
 cnn/variables/variables.data-00000-of-00001
+/static/uploads
+/website deletreo/static/

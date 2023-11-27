@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/opensans.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="logo"></div>
+</head>
+<body>
+    <div id="container">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" multiple accept="image/*">
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+    {% if uploaded_files %}
+        <div class="grid">
+            {% for i in range(uploaded_files|length) %}
+                <div class="card">
+                    <img src="{{ uploaded_files[i] }}" alt="Uploaded Image">
+                    <p>{{ file_names[i] }}</p>
+                </div>
+            {% endfor %}
+        </div>
+        <div id="resultado">
+            {{ resultado }}
+        </div>
+    {% endif %}
+</body>
+</html>
