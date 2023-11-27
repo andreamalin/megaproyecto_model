@@ -119,13 +119,12 @@ class MediapipeHands():
             name = path.split(".")[0]
 
             self.change_to_30_fps(video_input_path=input_path, video_output_path=output_fps_path)
-            print('wuu')
             self.extract_video(output_fps_path, name, self.sequence_id, input_path, output_mediapipe_detection)
 
             self.slow_video(
                 video_input_path=output_mediapipe_detection, 
                 video_output_path=output_mediapipe_detection_real_duration, 
-                duration=self.get_length(input_path)/0.5)
+                duration=self.get_length(input_path)/0.8)
             os.remove(output_mediapipe_detection)
         except Exception as e: print(e)
         finally:
