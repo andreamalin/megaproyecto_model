@@ -51,6 +51,8 @@ async def predictModel(resource: Resource):
       "apiUsername": 'W4B.n-sdsh',
     }
 
+    print('>>> Resultados de modelos: ', result)
+
     # Send PUT request to BACKEND_API
     async with httpx.AsyncClient() as client:
       response = await client.put(f"{BACKEND_API}/resources/model", json=data)

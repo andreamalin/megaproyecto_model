@@ -25,12 +25,9 @@ def process_video(url_link, id):
     del df["file"] 
 
     pretainedModels = PretrainedModels()
-    print('>>>>>> 5')
     results = pretainedModels.get_predictions(df)
-    print('>>>>> >6')
 
     results = pretainedModels.get_unique_pred()
-    print('>>>>>> 7')
     return results
 
 
