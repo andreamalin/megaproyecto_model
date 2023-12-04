@@ -8,5 +8,5 @@ __pycache__
 *.pb
 *.index
 *.data
-cnn_asl/variables/variables.data-00000-of-00001
-cnn/variables/variables.data-00000-of-00001
+cnn_asl/*
+cnn/*
