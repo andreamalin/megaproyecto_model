@@ -25,21 +25,18 @@ def process_video(url_link, id):
     del df["file"] 
 
     pretainedModels = PretrainedModels()
-    print('>>>>>> 5')
     results = pretainedModels.get_predictions(df)
-    print('>>>>> >6')
 
     results = pretainedModels.get_unique_pred()
-    print('>>>>>> 7')
     return results
 
 
-def process_video_asl(url_link):
+def process_video_asl(url_link, id):
     path = f'{os.getcwd()}/cdn_input/{id}.mp4'
     download(url_link, path)
 
     mediapipeHands = MediapipeHands()
-    mediapipeHands.extract_coordinates_from_path(path)
+    mediapipeHands.extract_coordinates_from_path(path, id)
 
     df = mediapipeHands.get_padded_data()
     del df["sequence_id"] 

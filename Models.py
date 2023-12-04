@@ -46,7 +46,7 @@ class PretrainedModels():
     def load_three_models(self):
         self.svm_model = self.load_model("svm")
         self.tree_model = self.load_model("tree")
-        # self.cnn_model = tf.keras.models.load_model("cnn")
+        self.cnn_model = tf.keras.models.load_model("cnn")
 
     def load_three_models_asl(self):
         self.svm_model = self.load_model("svm_asl")
