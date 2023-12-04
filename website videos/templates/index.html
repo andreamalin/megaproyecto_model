@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/opensans.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="logo"></div>
+
+        <form action="/" method="post" enctype="multipart/form-data">
+            <select name="option" id="option">
+                <option value="asl">ASL</option>
+                <option value="lensegua">LENSEGUA</option>
+            </select>
+
+            <input type="file" name="file" accept="video/mp4">
+            <input id="submit_video" type="submit" value="Upload">
+        </form>
+
+        <section id="section" class="section">
+            {% if original_filename and edited_filename %}
+            <div class="rows">
+                <div class="columns">
+                    <h2>Video Original</h2>
+                    <video width="420" height="340" controls autoplay muted loop>
+                        <source src="{{ url_for('uploaded_file', filename=original_filename.split('/')[-1]) }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="columns">
+                    <h2>Hand Landmarks</h2>
+                    <video width="420" height="340" controls autoplay muted loop>
+                        <source src="{{ url_for('edited_file', filename=edited_filename.split('/')[-1]) }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+
+            <h2>Resultados</h2>
+            <ul>
+                {% for key, value in edited_words.items() %}
+                    <li><strong>{{ key }}:</strong> {{ value }}</li>
+                {% endfor %}
+            </ul>
+
+            {% endif %}
+        </section>
+    </div>
+
+</body>
+</html>

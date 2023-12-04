@@ -1,0 +1,48 @@
+html {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background: linear-gradient(#3C6E71, #284B63);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: white;
+    min-height: 88vh;
+    border-radius: 5vw;
+    margin: 2vw;
+}
+
+.logo {
+    width: 55vw;
+    height: 7vw;
+    background-image: url('/static/img/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0 1vw;
+}
