@@ -5,9 +5,9 @@ import numpy as np
 from utils import flat_X
 
 class Models():
-    def __init__(self, max_seq_length=30) -> None:
+    def __init__(self, max_seq_length=30, num_features=84) -> None:
         self.max_seq_length = max_seq_length # Frames
-        self.num_features = 84 # 21 rows x, 21 rows y left and right = 84
+        self.num_features = num_features # 21 rows x, 21 rows y left and right = 84
     
     def get_three_dimensions(self, df: pd.DataFrame):
         num_samples = int(len(df)/self.max_seq_length)
